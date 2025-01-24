@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border Radius Previewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Border Radius By Jin</h1>
+  </header>
+  <main>
+    <div class="preview-container">
+      <div id="blob" class="blob"></div>
+    </div>
+    <div class="controls">
+      <label>
+        Top Left:
+        <input type="range" id="tl" min="0" max="100" value="50">
+      </label>
+      <label>
+        Top Right:
+        <input type="range" id="tr" min="0" max="100" value="50">
+      </label>
+      <label>
+        Bottom Right:
+        <input type="range" id="br" min="0" max="100" value="50">
+      </label>
+      <label>
+        Bottom Left:
+        <input type="range" id="bl" min="0" max="100" value="50">
+      </label>
+    </div>
+    <div class="code-container">
+      <p id="code">border-radius: 50% 50% 50% 50%;</p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
