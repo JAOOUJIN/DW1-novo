@@ -1,0 +1,84 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f5;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Lista de Exercícios */
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    list-style: none;
+    background: #3498db;
+    color: #ffffff;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+ol li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Seções */
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    ol li {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
